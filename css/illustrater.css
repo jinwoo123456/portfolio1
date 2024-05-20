@@ -38,8 +38,8 @@ input[id="hamburger"] {
 }
 input[id="hamburger"] + label {
   display: block;
-  width: 6rem;
-  height: 4rem;
+  width: 3rem;
+  height: 2.5rem;
   position: relative;
   cursor: pointer;
 }
@@ -162,6 +162,39 @@ input[id="hamburger"]:checked + label + div {
   font-size: 3.5rem;
   font-weight: normal;
 }
+/* .menu-container {
+  right: 0;
+  z-index: 1001;
+  position: absolute;
+  display: flex;
+
+  width: 90%;
+  height: 6rem;
+  margin: 0 auto;
+  background-color: rgb(184, 3, 123);
+}
+.menu {
+  font-family: var(--noto-sans);
+  font-size: 2rem;
+  color: white;
+  margin: 1.5rem 2rem;
+  text-align: center;
+}
+.menu-sub-container {
+  position: absolute;
+  text-align: left;
+  width: 7%;
+  padding: 3rem 2rem;
+  background-color: white;
+}
+.menu-sub-ul {
+  color: rgb(184, 3, 123);
+
+  overflow: hidden;
+}
+.menu-sub {
+  padding: 0.2rem;
+} */
 /* 여기서부터 섹션 */
 .title {
   padding-top: 1rem;
