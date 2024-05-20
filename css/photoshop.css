@@ -1,30 +1,12 @@
-html {
-  font-size: 62.5%;
-}
-@font-face {
-  font-family: ISOCP;
-  src: url(/font/ISOCP.ttf);
-  src: local(※), url(/font/ISOCP.ttf) format(‘ttf’);
-}
-header {
-  position: relative;
-}
-
 :root {
   --noto-sans: "Noto Sans KR", sans-serif;
   --iscocp: "ISOCP", ISCOP;
+  --mont: "Montserrat", sans-serif;
 
   --white: white;
   --black: black;
   --gray: #ccc;
   --pink: rgb(224, 82, 165);
-  --ptstext: #00a7ff;
-  --aibg: #310101;
-  --aitext: #eea808;
-  --pribg: #11005e;
-  --pritext: #6f61c4;
-  --aftbg: #11005e;
-  --afttext: #9d90fa;
 }
 html {
   font-size: 62.5%;
@@ -41,6 +23,7 @@ header {
 .ham-a {
   text-decoration: none;
   color: black;
+  font-family: var(--iscocp);
 }
 
 .mobile_btn {
@@ -55,8 +38,8 @@ input[id="hamburger"] {
 }
 input[id="hamburger"] + label {
   display: block;
-  width: 6rem;
-  height: 4rem;
+  width: 3rem;
+  height: 2.5rem;
   position: relative;
   cursor: pointer;
 }
@@ -64,7 +47,7 @@ input[id="hamburger"] + label span {
   display: block;
   position: absolute;
   width: 100%;
-  height: 0.5rem;
+  height: 0.3rem;
   border-radius: 3rem;
   background: var(--white);
   transition: all 0.35s;
@@ -116,20 +99,26 @@ input[id="hamburger"]:checked + label + div {
   top: 11.9rem;
   width: 100%;
 }
-
+.ham-logo {
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: var(--iscocp);
+}
 .sidebar .nav_mobile li {
   color: black;
   position: relative;
   float: left;
   width: 100%;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 5rem;
   border-bottom: 0.1rem solid #ccc;
-  font-family: "Noto Sans KR";
-  font-weight: bold;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  font-family: var(--mont);
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .sidebar a {
@@ -140,7 +129,6 @@ input[id="hamburger"]:checked + label + div {
 
 .sidebar li a {
   display: block;
-  font-weight: bold;
   line-height: 4rem;
   margin: 0px;
   padding: 0;
@@ -169,6 +157,10 @@ input[id="hamburger"]:checked + label + div {
   background-color: rgb(224, 82, 165);
 
   color: white;
+}
+.menu-sub {
+  font-size: 3.5rem;
+  font-weight: normal;
 }
 .title-design {
   position: relative;
