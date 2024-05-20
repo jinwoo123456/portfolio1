@@ -9,24 +9,89 @@
     <script src="../js/illustrater.js" defer></script>
   </head>
   <body>
-    <ul class="container">
-      <li class="ill-img">
-        <span>postser</span>
-        <img src="../illustrater/SKYFALL 완성.jpg" alt="" class="img" />
-      </li>
-      <li class="ill-img">
-        <img src="../illustrater/1.jpg" alt="" class="img" />
-      </li>
-      <li class="ill-img">
-        <img src="../illustrater/2.jpg" alt="" class="img" />
-      </li>
-      <li class="ill-img">
-        <img src="../illustrater/김진우-01.jpg" alt="" class="img" />
-      </li>
-      <li class="ill-img">
-        <img src="../illustrater/김진우-02.jpg" alt="" class="img" />
-      </li>
-    </ul>
+    <header>
+      <div class="mobile_btn">
+        <input type="checkbox" id="hamburger" />
+        <label for="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <div class="sidebar">
+          <h2 style="text-align: center; position: relative; top: 75px">
+            <a href="#" class="ham.a ham-logo">Porftolio</a>
+          </h2>
+          <hr style="position: relative; top: 100px; border: solid 1px black" />
+          <ul class="nav_mobile">
+            <li>
+              <a href="#">INTRODUCTION</a>
+              <div class="menu-sub-container">
+                <ul class="menu-sub-ul">
+                  <li><a href="" class="menu-sub">소개</a></li>
+                  <li><a href="" class="menu-sub">이력서</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">DESIGN</a>
+              <div class="menu-sub-container">
+                <ul class="menu-sub-ul">
+                  <li class="menu-sub">
+                    <a href="./pages/photoshop.html" class="menu-sub"
+                      >Photoshop</a
+                    >
+                  </li>
+                  <li><a href="" class="menu-sub">Illustrator</a></li>
+                  <li><a href="" class="menu-sub">Premiere pro</a></li>
+                  <li><a href="" class="menu-sub">Figma</a></li>
+                  <li><a href="" class="menu-sub">Coding</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">INFORMATION</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="photoshop-container">
+      <div class="grid-div">
+        <p class="grid-title">Poster</p>
+        <div class="border"></div>
+        <ul class="magazine-grid">
+          <li>
+            <img src="../illustrater/SKYFALL 완성.jpg" alt="" class="img-mag" />
+          </li>
+          <li>
+            <img src="../illustrater/2.jpg" alt="" class="img-mag" />
+          </li>
+        </ul>
+      </div>
+      <div class="grid-div">
+        <p class="grid-title">Icon</p>
+        <div class="border"></div>
+        <ul class="magazine-grid">
+          <li>
+            <img src="../illustrater/김진우-02.jpg" alt="" class="img-mag" />
+          </li>
+          <li>
+            <img src="../illustrater/김진우-01.jpg" alt="" class="img-mag" />
+          </li>
+        </ul>
+      </div>
+
+      <div class="grid-div">
+        <p class="grid-title">Magazine</p>
+        <div class="border"></div>
+        <ul class="magazine-grid">
+          <li>
+            <img src="../illustrater/김진우-02.jpg" alt="" class="img-mag" />
+          </li>
+          <li>
+            <img src="../photoshop/magazine/잡지2.jpg" alt="" class="img-mag" />
+          </li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>
-`

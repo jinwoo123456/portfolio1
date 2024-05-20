@@ -1,6 +1,7 @@
 :root {
   --noto-sans: "Noto Sans KR", sans-serif;
   --iscocp: "ISOCP", ISCOP;
+  --mont: "Montserrat", sans-serif;
 
   --white: white;
   --black: black;
@@ -22,6 +23,7 @@ header {
 .ham-a {
   text-decoration: none;
   color: black;
+  font-family: var(--iscocp);
 }
 
 .mobile_btn {
@@ -97,20 +99,26 @@ input[id="hamburger"]:checked + label + div {
   top: 11.9rem;
   width: 100%;
 }
-
+.ham-logo {
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: var(--iscocp);
+}
 .sidebar .nav_mobile li {
   color: black;
   position: relative;
   float: left;
   width: 100%;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 5rem;
   border-bottom: 0.1rem solid #ccc;
-  font-family: "Noto Sans KR";
-  font-weight: bold;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  font-family: var(--mont);
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .sidebar a {
@@ -121,7 +129,6 @@ input[id="hamburger"]:checked + label + div {
 
 .sidebar li a {
   display: block;
-  font-weight: bold;
   line-height: 4rem;
   margin: 0px;
   padding: 0;
@@ -151,7 +158,10 @@ input[id="hamburger"]:checked + label + div {
 
   color: white;
 }
-
+.menu-sub {
+  font-size: 3.5rem;
+  font-weight: normal;
+}
 /* .menu-container {
   right: 0;
   z-index: 1001;
@@ -190,6 +200,14 @@ input[id="hamburger"]:checked + label + div {
   width: 100%;
   height: 103.9rem;
 }
+.black-solid-op {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  background: var(--black);
+  opacity: 0.2;
+}
 .main1-video {
   width: 100%;
   height: 100%;
@@ -202,9 +220,10 @@ input[id="hamburger"]:checked + label + div {
   font-family: var(--iscocp);
   font-weight: 900;
   position: absolute;
-  font-size: 20rem;
+  z-index: 200;
+  font-size: 16rem;
   letter-spacing: 0.01vw;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
