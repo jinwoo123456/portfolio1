@@ -1,0 +1,23 @@
+:root {
+  --noto-sans: "Noto Sans KR", sans-serif;
+  --iscocp: "ISOCP", ISCOP;
+  --mont: "Montserrat", sans-serif;
+
+  --white: white;
+  --black: black;
+  --gray: #ccc;
+  --pink: rgb(224, 82, 165);
+}
+html {
+  font-size: 62.5%;
+}
+@font-face {
+  font-family: ISOCP;
+  src: url(/font/ISOCP.ttf);
+  src: local(※), url(/font/ISOCP.ttf) format(‘ttf’);
+}
+.photoshop-title-bg {
+  width: 100%;
+  height: 30rem;
+  color: var(--white);
+}
