@@ -2,7 +2,10 @@
   --noto-sans: "Noto Sans KR", sans-serif;
   --iscocp: "ISOCP", ISCOP;
   --mont: "Montserrat", sans-serif;
-
+  --abril: "Abril Fatface", serif;
+  --ps: rgb(0, 167, 255);
+  --aepr: rgb(157, 144, 250);
+  --ai: rgb(238, 168, 8);
   --white: white;
   --black: black;
   --gray: #ccc;

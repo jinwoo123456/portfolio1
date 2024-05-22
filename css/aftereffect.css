@@ -1,5 +1,41 @@
+:root {
+  --noto-sans: "Noto Sans KR", sans-serif;
+  --iscocp: "ISOCP", ISCOP;
+  --mont: "Montserrat", sans-serif;
+  --abril: "Abril Fatface", serif;
+  --ps: rgb(0, 167, 255);
+  --aepr: rgb(157, 144, 250);
+  --ai: rgb(238, 168, 8);
+  --white: white;
+  --black: black;
+  --gray: #ccc;
+  --pink: rgb(224, 82, 165);
+  --title: "Zilla Slab", serif;
+  --abril: "Abril Fatface", serif;
+}
+html {
+  font-size: 62.5%;
+}
 .photoshop-title-bg {
   width: 100%;
   height: 30rem;
   color: var(--white);
+}
+.title-design {
+  position: relative;
+  text-align: center;
+  font-family: var(--noto-sans);
+  font-size: 4rem;
+  height: 230px;
+  overflow: hidden;
+}
+.photoshop-title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--aepr);
+  font-size: 7rem;
+  font-family: var(--abril);
+  font-weight: normal;
 }

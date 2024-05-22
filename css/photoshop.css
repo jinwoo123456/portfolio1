@@ -2,11 +2,15 @@
   --noto-sans: "Noto Sans KR", sans-serif;
   --iscocp: "ISOCP", ISCOP;
   --mont: "Montserrat", sans-serif;
-
+  --abril: "Abril Fatface", serif;
+  --ps: rgb(0, 167, 255);
+  --aepr: rgb(157, 144, 250);
+  --ai: rgb(238, 168, 8);
   --white: white;
   --black: black;
   --gray: #ccc;
   --pink: rgb(224, 82, 165);
+  --title: "Zilla Slab", serif;
 }
 html {
   font-size: 62.5%;
@@ -162,26 +166,27 @@ input[id="hamburger"]:checked + label + div {
   font-size: 3.5rem;
   font-weight: normal;
 }
+.photoshop-title-bg {
+  width: 100%;
+  height: 30rem;
+  color: var(--white);
+}
 .title-design {
   position: relative;
   text-align: center;
   font-family: var(--noto-sans);
   font-size: 4rem;
-  height: 230px;
+  height: 23rem;
   overflow: hidden;
-}
-.photoshop-title-bg {
-  width: 100%;
-  height: 30rem;
-  color: var(--white);
 }
 .photoshop-title-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: var(--ptstext);
-  font-size: 7rem;
+  color: var(--ps);
+  font-size: 5rem;
+  font-family: var(--monoton);
 }
 .photoshop-container {
   width: 65%;
@@ -250,7 +255,9 @@ input[id="hamburger"]:checked + label + div {
   width: 100%;
   gap: 5rem;
   display: grid;
+
   grid-template-columns: 1fr 1fr 1fr;
+
   li {
     overflow: hidden;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -262,6 +269,7 @@ input[id="hamburger"]:checked + label + div {
   filter: grayscale(1);
   opacity: 0.5;
   transition: 0.5s;
+  object-fit: cover;
   &:hover {
     opacity: 1;
     filter: grayscale(0);
@@ -282,4 +290,16 @@ input[id="hamburger"]:checked + label + div {
     width: 100%;
     height: 100%;
   }
+}
+
+.popup1-1 {
+  position: fixed;
+  inset: 0;
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.mag-img {
+  width: 50%;
 }

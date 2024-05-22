@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zeyada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Zeyada&display=swap");
+:root {
+  --noto-sans: "Noto Sans KR", sans-serif;
+  --iscocp: "ISOCP", ISCOP;
+  --mont: "Montserrat", sans-serif;
+  --abril: "Abril Fatface", serif;
+  --title: "Zilla Slab", serif;
+  --ps: rgb(0, 167, 255);
+  --aepr: rgb(157, 144, 250);
+  --ai: rgb(238, 168, 8);
+  --white: white;
+  --black: black;
+  --gray: #ccc;
+  --pink: rgb(224, 82, 165);
+  --encode: "Encode Sans Expanded", sans-serif;
+  --zeyada: "Zeyada", cursive;
+  --monoton: "Monoton", sans-serif;
+}
+.photoshop-title-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--ptstext);
+  font-size: 7rem;
+  font-family: var(--zeyada);
+  font-weight: 300;
+}
 
 /* Reset */
 html,

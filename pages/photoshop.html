@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porftolio-Photoshop</title>
     <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/photoshop.css" />
     <script src="../js/index.js" defer></script>
     <script src="../js/jQuery 3.3.71.min.js"></script>
@@ -28,8 +40,14 @@
               <a href="#">INTRODUCTION</a>
               <div class="menu-sub-container">
                 <ul class="menu-sub-ul">
-                  <li><a href="" class="menu-sub">소개</a></li>
-                  <li><a href="" class="menu-sub">이력서</a></li>
+                  <li>
+                    <a href="../pages/aboutme.html" class="menu-sub"
+                      >About me</a
+                    >
+                  </li>
+                  <li>
+                    <a href="../pages/Resume.html" class="menu-sub">Resume</a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -70,7 +88,7 @@
     </header>
 
     <h1 class="title-design">
-      <span class="photoshop-title-text">Photoshop</span>
+      <span class="photoshop-title-text">PHOTOSHOP</span>
       <img src="../img/bg/bg-ps.jpg" alt="" class="photoshop-title-bg" />
     </h1>
     <section class="photoshop-container">
@@ -79,62 +97,161 @@
         <div class="border"></div>
         <ul class="mob-web-grid">
           <li>
-            <img src="../photoshop/mob-web/01.jpg" alt="" class="web-img" />
+            <button class="popup1">
+              <img src="../photoshop/mob-web/01.jpg" alt="" class="web-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/mob-web/02.jpg" alt="" class="web-img" />
+            <button class="popup2">
+              <img src="../photoshop/mob-web/02.jpg" alt="" class="web-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/mob-web/03.jpg" alt="" class="web-img" />
+            <button class="popup3">
+              <img src="../photoshop/mob-web/03.jpg" alt="" class="web-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/mob-web/04.jpg" alt="" class="web-img" />
+            <button class="popup4">
+              <img src="../photoshop/mob-web/04.jpg" alt="" class="web-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/mob-web/05.jpg" alt="" class="web-img" />
+            <button class="popup5">
+              <img src="../photoshop/mob-web/05.jpg" alt="" class="web-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/mob-web/06.jpg" alt="" class="web-img" />
+            <button class="popup6">
+              <img src="../photoshop/mob-web/06.jpg" alt="" class="web-img" />
+            </button>
           </li>
           <li>
-            <img
-              src="../photoshop/mob-web/07-copy.jpg"
-              alt=""
-              class="web-img"
-            />
+            <button class="popup7">
+              <img
+                src="../photoshop/mob-web/07-copy.jpg"
+                alt=""
+                class="web-img"
+              />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/mob-web/08.jpg" alt="" class="web-img" />
+            <button class="popup8">
+              <img src="../photoshop/mob-web/08.jpg" alt="" class="web-img" />
+            </button>
           </li>
         </ul>
+        <dialog class="popup1-1">
+          <button class="close">
+            <img src="../photoshop/mob-web/01.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup2-1">
+          <button class="close2">
+            <img src="../photoshop/mob-web/02.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup3-1">
+          <button class="close3">
+            <img src="../photoshop/mob-web/03.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup4-1">
+          <button class="close4">
+            <img src="../photoshop/mob-web/04.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup5-1">
+          <button class="close5">
+            <img src="../photoshop/mob-web/05.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup6-1">
+          <button class="close6">
+            <img src="../photoshop/mob-web/06.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup7-1">
+          <button class="close7">
+            <img src="../photoshop/mob-web/07-copy.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup8-1">
+          <button class="close8">
+            <img src="../photoshop/mob-web/08.jpg" alt="" />
+          </button>
+        </dialog>
       </div>
+
       <div class="grid-div">
         <p class="grid-title">Magazine</p>
         <div class="border"></div>
         <ul class="magazine-grid">
           <li>
-            <img src="../photoshop/magazine/잡지.jpg" alt="" class="img-mag" />
+            <button class="popup9">
+              <img
+                src="../photoshop/magazine/잡지.jpg"
+                alt=""
+                class="img-mag"
+              />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/magazine/잡지2.jpg" alt="" class="img-mag" />
+            <button class="popup10">
+              <img
+                src="../photoshop/magazine/잡지2.jpg"
+                alt=""
+                class="img-mag"
+              />
+            </button>
           </li>
         </ul>
+        <dialog class="popup9-1">
+          <button class="close9">
+            <img src="../photoshop/magazine/잡지.jpg" alt="" class="mag-img" />
+          </button>
+        </dialog>
+        <dialog class="popup10-1">
+          <button class="close10">
+            <img src="../photoshop/magazine/잡지2.jpg" alt="" />
+          </button>
+        </dialog>
       </div>
-
       <div class="grid-div">
         <p class="grid-title">Using Tools</p>
         <div class="border"></div>
         <ul class="and-grid">
           <li>
-            <img src="../photoshop/and/1_완성.jpg" alt="" class="and-img" />
+            <button class="popup11">
+              <img src="../photoshop/and/1_완성.jpg" alt="" class="and-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/and/2_완성.jpg" alt="" class="and-img" />
+            <button class="popup12">
+              <img src="../photoshop/and/2_완성.jpg" alt="" class="and-img" />
+            </button>
           </li>
           <li>
-            <img src="../photoshop/and/동물합성.jpg" alt="" class="and-img" />
+            <button class="popup13">
+              <img src="../photoshop/and/동물합성.jpg" alt="" class="and-img" />
+            </button>
           </li>
         </ul>
+        <dialog class="popup11-1">
+          <button class="close11">
+            <img src="../photoshop/and/1_완성.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup12-1">
+          <button class="close12">
+            <img src="../photoshop/and/2_완성.jpg" alt="" />
+          </button>
+        </dialog>
+        <dialog class="popup12-1">
+          <button class="close12">
+            <img src="../photoshop/and/동물합성.jpg" alt="" />
+          </button>
+        </dialog>
       </div>
     </section>
   </body>
